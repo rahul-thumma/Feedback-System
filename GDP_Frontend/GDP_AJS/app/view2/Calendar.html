@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+<script src="Addclass.js"></script>
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="Addclass.css">
+<link rel="stylesheet/less" type="text/css" href="timepicker.less.css">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<style type="text/css" id="less:bootstrap-timepicker-less-timepicker"></style>
+
+
+<style type="text/css">
+
+
+
+    body {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 14px;
+        font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    }
+
+    #calendar {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    body {
+        padding: 20px 0px 200px;
+    }
+    h1.title {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+    }
+    .col-sm-10{
+        margin-top:-5%;
+    }
+    .calendar {
+        margin: 0px 40px;
+    }
+    .popover.calendar-event-popover {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        color: rgb(120, 120, 120);
+        border-radius: 2px;
+        max-width: 300px;
+    }
+    .popover.calendar-event-popover h4 {
+        font-size: 14px;
+        font-weight: 900;
+    }
+    .popover.calendar-event-popover .location,
+    .popover.calendar-event-popover .datetime {
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+    .popover.calendar-event-popover .location > span,
+    .popover.calendar-event-popover .datetime > span {
+        margin-right: 10px;
+    }
+    .popover.calendar-event-popover .space,
+    .popover.calendar-event-popover .attending {
+        margin-top: 10px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid rgb(160, 160, 160);
+        font-weight: 700;
+    }
+    .popover.calendar-event-popover .space > .pull-right,
+    .popover.calendar-event-popover .attending > .pull-right {
+        font-weight: 400;
+    }
+    .popover.calendar-event-popover .attending {
+        margin-top: 5px;
+        font-size: 18px;
+        padding: 0px 10px 5px;
+    }
+    .popover.calendar-event-popover .attending img {
+        border-radius: 50%;
+        width: 40px;
+    }
+    .popover.calendar-event-popover .attending span.attending-overflow {
+        display: inline-block;
+        width: 40px;
+        background-color: rgb(200, 200, 200);
+        border-radius: 50%;
+        padding: 8px 0px 7px;
+        text-align: center;
+    }
+    .popover.calendar-event-popover .attending > .pull-right {
+        font-size: 28px;
+    }
+    .popover.calendar-event-popover a.btn {
+        margin-top: 10px;
+        width: 100%;
+        border-radius: 3px;
+    }
+    [data-toggle="calendar"] > .row > .calendar-day {
+        font-family: 'Roboto', sans-serif;
+        width: 14.28571428571429%;
+        border: 1px solid rgb(235, 235, 235);
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        min-height: 120px;
+    }
+    [data-toggle="calendar"] > .row > .calendar-day.calendar-no-current-month {
+        color: rgb(200, 200, 200);
+    }
+    [data-toggle="calendar"] > .row > .calendar-day:last-child {
+        border-right-width: 1px;
+    }
+
+    [data-toggle="calendar"] > .row:last-child > .calendar-day {
+        border-bottom-width: 1px;
+    }
+
+    .calendar-day > time {
+        position: absolute;
+        display: block;
+        bottom: 0px;
+        left: 0px;
+        font-size: 12px;
+        font-weight: 300;
+        width: 100%;
+        padding: 10px 10px 3px 0px;
+        text-align: right;
+    }
+    .calendar-day > .events {
+        cursor: pointer;
+    }
+    .calendar-day > .events > .event h4 {
+        font-size: 12px;
+        font-weight: 700;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 3px;
+    }
+    .calendar-day > .events > .event > .desc,
+    .calendar-day > .events > .event > .location,
+    .calendar-day > .events > .event > .datetime,
+    .calendar-day > .events > .event > .attending {
+        display: none;
+    }
+    .calendar-day > .events > .event > .progress {
+        height: 10px;
+    }
+    h3{
+        color: black;
+    }
+    .navbar-default{
+        background-color: seagreen;
+    }
+</style>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<title>Feedback System</title>
+
+</head>
+
+<body ng-app="myApp" ng-controller="userCtrl">
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <h3 align="center"><b> Feedback System</b></h3>
+
+</nav>
+
+<div id="wrapper">
+    <div class="overlay"></div>
+
+    <!-- Sidebar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+        <ul class="nav sidebar-nav">
+            <li class="sidebar-brand">
+                <a href="#">
+                    StudentHomePage
+                </a>
+            </li>
+            <li>
+                <a href="Calendar.html" id="link1">Calendar</a>
+            </li>
+            <li>
+                <a href="listOfPresentations.html" id="link2">List of Presentations</a>
+            </li>
+            <li>
+                <a href="profile.php" id="link3">Profile</a>
+            </li>
+            <li>
+                <a href="history.html" id="link4">History</a>
+            </li>
+            <li>
+                <a href="Feedback.html" id="link5">Feedback</a>
+            </li>
+            <li>
+                <a href="viewFeedback.php"> View Feedback</a>
+            </li>
+            <li>
+                <a href="login.html">Log out</a>
+            </li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br><br>
+    <!-- /#sidebar-wrapper -->
+
+
+    <!-- /#page-content-wrapper -->
+
+
+    <!--<form class="form-horizontal" style="margin-left: 1em;"  >-->
+    <div class="container">
+        <div class="col-sm-10">
+            <!--<h1 class="title text-center"> July 2014 </h1>-->
+            <div class="container">
+                <h1><c>
+                    Date
+                </c></h1>
+
+                <div id='calendar'></div>
+            </div>
+            <div class="calendar" data-toggle="calendar">
+                <div class="row">
+                    <div class="col-xs-12 calendar-day calendar-no-current-month">
+                        <time datetime="2014-06-29">29</time>
+                    </div>
+                    <div class="col-xs-12 calendar-day calendar-no-current-month">
+                        <time datetime="2014-06-30">30</time>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-01">01</time>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-02">02</time>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-03">03</time>
+                        <div class="events">
+                            <div class="event">
+                                <h4>Presentation Info</h4>
+                                <div class="desc">
+                                    <p></p>
+                                    <p> </p>
+                                </div>
+                                <div class="location"> <span class="glyphicon glyphicon-map-marker"></span> Team name<input type="text" value=" " name="team">  </div>
+                                <!--<div class="location"> <span class="glyphicon glyphicon-map-marker"></span> Topic name<input type="text" value=" " name="topic">  </div>-->
+                                <div class="datetime"> <span class="glyphicon glyphicon-time"></span> Topic name<input type="text" value="" name="topic"> </div>
+
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="6" aria-valuemin="0" aria-valuemax="134" style="width: 4.477%;">
+                                        <span class="sr-only">4.477% Filled</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-04">04</time>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-05">05</time>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-06">06</time>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-07">07</time>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-08">08</time>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-09">09</time>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-10">10</time>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-11">11</time>
+                        <div class="events">
+                            <div class="event">
+                                <h4>Presentation Info</h4>
+
+                                <div class="location"> <span class="glyphicon glyphicon-map-marker"></span>Team name<input type="text" value="" name="team"> </div>
+                                <div class="datetime"> <span class="glyphicon glyphicon-time"></span> Topic name <input type="text" value="" name="topic"> </div>
+
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="43" aria-valuemin="0" aria-valuemax="368" style="width: 11.68%;">
+                                        <span class="sr-only"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-12">12</time>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-13">13</time>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-14">14</time>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-15">15</time>
+                        <div class="events">
+                            <div class="event">
+                                <h4>Presentation Info</h4>
+                                <div class="desc">
+                                    <p></p>
+                                </div>
+                                <div class="location"> <span class="glyphicon glyphicon-map-marker"></span>Team name<input type="text" value="" name="team">  </div>
+                                <div class="datetime"> <span class="glyphicon glyphicon-time"></span>Topic name<input type="text" value="" name="topic"> </div>
+
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="69" aria-valuemin="0" aria-valuemax="320" style="width: 21.56%;">
+                                        <span class="sr-only">21.56% Filled</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-16">16</time>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-17">17</time>>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-18">18</time>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-19">19</time>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-20">20</time>
+                        <div class="events">
+                            <div class="event">
+                                <h4>Presentation Info</h4>
+                                <div class="desc">
+                                    <p style="text-align:center;"></p>
+                                </div>
+                                <div class="location"> <span class="glyphicon glyphicon-map-marker"></span>Team name<input type="text" value="" name="team">  </div>
+                                <div class="datetime"> <span class="glyphicon glyphicon-time"></span>Topic name<input type="text" value="" name="topic">  </div>
+
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="336" style="width: 0.29%;">
+                                        <span class="sr-only">0.29% Filled</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-21">21</time>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-22">22</time>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-23">23</time>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-24">24</time>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-25">25</time>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-26">26</time>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-27">27</time>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-28">28</time>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-29">29</time>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-30">30</time>
+                    </div>
+                    <div class="col-xs-12 calendar-day">
+                        <time datetime="2014-07-31">31</time>
+                    </div>
+                    <div class="col-xs-12 calendar-day calendar-no-current-month">
+                        <time datetime="2014-08-01">01</time>
+                    </div>
+                    <div class="col-xs-12 calendar-day calendar-no-current-month">
+                        <time datetime="2014-08-02">02</time>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="text-center"></p>
+    <script type="text/javascript">
+        $(function () {
+            $('[data-toggle="calendar"] > .row > .calendar-day > .events > .event').popover({
+                container: 'body',
+                content: 'Hello World',
+                html: true,
+                placement: 'bottom',
+                template: '<div class="popover calendar-event-popover" role="tooltip"><div class="arrow"></div><h3 class="popover-title"></h3><div class="popover-content"></div></div>'
+            });
+
+            $('[data-toggle="calendar"] > .row > .calendar-day > .events > .event').on('show.bs.popover', function () {
+                var attending = parseInt($(this).find('div.progress>.progress-bar').attr('aria-valuenow')),
+                        total = parseInt($(this).find('div.progress>.progress-bar').attr('aria-valuemax')),
+                        remaining = total - attending,
+                        displayAttending = attending - $(this).find('div.attending').children().length,
+                        html = [
+                            '<button type="button" class="close"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>',
+                            '<h4>'+$(this).find('h4').text()+'</h4>',
+                            '<div class="desc">'+$(this).find('div.desc').html()+'</div>',
+                            '<div class="location">'+$(this).find('div.location').html()+'</div>',
+                            '<div class="datetime">'+$(this).find('div.datetime').html()+'</div>',
+
+
+                            '<a href="Feedback.html" class="btn btn-success" role="button">Feedback</a>'
+                        ].join('\n');
+
+                $(this).attr('title', $(this).find('h4').text());
+                $(this).attr('data-content', html);
+            });
+
+            $('[data-toggle="calendar"] > .row > .calendar-day > .events > .event').on('shown.bs.popover', function () {
+                var $popup = $(this);
+                $('.popover:last-child').find('.close').on('click', function(event) {
+                    $popup.popover('hide');
+                });
+            });
+        });
+        $(function () {
+            var date = new Date();
+            var y = date.getFullYear();
+
+            $('#calendar').fullCalendar({
+                header: {
+                    left: 'prev,next today',
+                    center: 'title'
+                },
+                editable: true
+            });
+        });
+
+    </script>
+</div>
+</body></html>

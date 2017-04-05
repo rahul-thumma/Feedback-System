@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a6c84411-ca33-401c-987b-d8342a9359c1" name="Default" comment="This commit fixed Issues #20 , #23">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Backend/API/updateClassDetails.php" afterPath="$PROJECT_DIR$/GDP_Backend/API/updateClassDetails.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/index.html" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/AboutUs.html" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/AboutUs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/Addclass.js" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/Addclass.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/AdminPage.html" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/AdminPage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/AdminPage.php" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/AdminPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/AdminProfile.php" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/AdminProfile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/Calendar.html" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/Calendar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/Class.html" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/Class.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/Feedback.html" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/Feedback.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/Feedback.php" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/Feedback.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/StudentHomePage.html" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/StudentHomePage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/Viewfeedback.html" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/Viewfeedback.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/changePasswordForm.html" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/changePasswordForm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/changePasswordForm.php" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/changePasswordForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/class.php" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/contactUs.html" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/contactUs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/facultyHomePage.html" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/facultyHomePage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/history.html" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/history.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/listOfPresentations.html" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/listOfPresentations.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/login.html" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/manageFaculty.php" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/manageFaculty.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/managePresentation.html" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/managePresentation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/managePresentation.php" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/managePresentation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/moderate.html" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/moderate.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/profile.html" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/profile.php" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/profile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/statistics.html" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/statistics.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/studentHomePage.php" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/studentHomePage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/test.html" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/test.js" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/viewFacultyFeedback.php" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/viewFacultyFeedback.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/viewFeedback.php" afterPath="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/viewFeedback.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/viewPresentationList.php" afterPath="$PROJECT_DIR$/viewPresentationList.php" />
+    </list>
+    <ignored path="nwgdp0900_Nov23.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - Feedbacksystem@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="nwgdp0900_Nov23" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="viewFeedback.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/viewFeedback.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <folding>
+                <marker date="1457298737547" expanded="true" signature="927:998" placeholder="select * fro..login..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.20884521">
+              <caret line="223" column="6" selection-start-line="223" selection-start-column="6" selection-end-line="223" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="71" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewPresentationList.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/viewPresentationList.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="session.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/session.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+              <folding>
+                <marker date="1457298737567" expanded="true" signature="395:452" placeholder="select usern..student..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Viewfeedback.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/Viewfeedback.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.461538">
+              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminProfile.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/AdminProfile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/053bf0df-eb4a-49b9-a3e3-34cfc82983c0/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Html5" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="S521778@mail.nwmissouri.edu" />
+        <option value="sahitya Pasnoor" />
+        <option value="Sahitya Pasnoor" />
+      </list>
+    </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/AdminPage.css" />
+        <option value="$PROJECT_DIR$/GDP_Backend/Client/changePassword.js" />
+        <option value="$PROJECT_DIR$/GDP_Backend/API/getStudentFeedback.php" />
+        <option value="$PROJECT_DIR$/GDP_Backend/API/getAllFeedback.php" />
+        <option value="$PROJECT_DIR$/GDP_Backend/API/getAllFeedbackByDetail.php" />
+        <option value="$PROJECT_DIR$/GDP_Backend/API/getFeedback.php" />
+        <option value="$PROJECT_DIR$/GDP_Backend/API/CreateSection.php" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/viewFeedback.js" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/viewFacultyFeedback.js" />
+        <option value="$PROJECT_DIR$/GDP_Backend/API/getPresentations.php" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/feedback.js" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/ListofPresentations.js" />
+        <option value="$PROJECT_DIR$/GDP_Backend/API/addFeedback.php" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/adminProfile.js" />
+        <option value="$PROJECT_DIR$/GDP_Backend/API/getStudentById.php" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/login.html" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/Addclass.js" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/test.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e0618b68-a8f7-425d-83c2-87b76374ada6/console.sql" />
+        <option value="$PROJECT_DIR$/GDP_Backend/API/updateClassDetails.php" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/AboutUs.html" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/AdminPage.html" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/AdminPage.php" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/AdminProfile.php" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/Calendar.html" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/changePasswordForm.html" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/changePasswordForm.php" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/Class.html" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/class.php" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/contactUs.html" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/facultyHomePage.html" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/Feedback.html" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/Feedback.php" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/history.html" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/listOfPresentations.html" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/manageFaculty.php" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/managePresentation.html" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/managePresentation.php" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/moderate.html" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/profile.html" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/profile.php" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/statistics.html" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/StudentHomePage.html" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/studentHomePage.php" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/test.html" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/viewFacultyFeedback.php" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/Viewfeedback.html" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/viewFeedback.php" />
+        <option value="$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/viewPresentationList.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1378" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nwgdp0900" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nwgdp0900" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nwgdp0900" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/phpunit-5.2.11.phar" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="js.buildTools.gulp.node_interpreter" value="" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="" />
+    <property name="js.buildTools.grunt.node_interpreter" value="" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="139" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="168" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="169" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="843" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="161" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="160" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="162" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="836" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\nwgdp0900\GDP_Backend\API" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\nwgdp0900\GDP_Frontend\GDP_AJS\app\view2" />
+      <recent name="C:\xampp\htdocs\nwgdp0900\GDP_Backend\API" />
+      <recent name="C:\xampp\htdocs\nwgdp0900-dep\GDP_Backend\API" />
+      <recent name="C:\xampp\htdocs\nwgdp0900-dep\GDP_Frontend\GDP_AJS\app\view2" />
+      <recent name="C:\xampp\htdocs\nwgdp0900_Jan19\GDP_Frontend\GDP_AJS\app\view2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.managePresentation.php">
+    <configuration default="false" name="StudentHomePage.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/nwgdp0900_Jan19/GDP_Frontend/GDP_AJS/app/view2/StudentHomePage.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="getAllSections.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/nwgdp0900_Jan19/GDP_Backend/API/getAllSections.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="managePresentation.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/nwgdp0900/GDP_Frontend/GDP_AJS/app/view2/managePresentation.php">
+      <method />
+    </configuration>
+    <configuration default="true" type="AppEnginePhpConfigurationType" factoryName="App Engine for PHP">
+      <method />
+    </configuration>
+    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeWebKit" factoryName="NW.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <pass-parent-env-vars value="true" />
+      <envs />
+      <force value="false" />
+      <verbose value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.StudentHomePage.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.getAllSections.php" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.managePresentation.php" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.managePresentation.php" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.getAllSections.php" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.StudentHomePage.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\S522603\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6c84411-ca33-401c-987b-d8342a9359c1" name="Default" comment="" />
+      <created>1449364514757</created>
+      <option name="number" value="Default" />
+      <updated>1449364514757</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Added the presentation setup screen and code">
+      <created>1449364988975</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1449364988975</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated session code">
+      <created>1449365925629</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1449365925629</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add change password code">
+      <created>1449409772310</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1449409772310</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added code to get  data for search filters from database through Rest service">
+      <created>1449469705659</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1449469705659</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated Submit Feedback back backend code">
+      <created>1449484109954</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1449484109954</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated ViewFeedback.html page">
+      <created>1449484288258</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1449484288258</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated addclass javascript function">
+      <created>1449486112628</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1449486112628</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Upload button from Class.html Page was removed">
+      <created>1449487298816</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1449487298816</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fixed issues in add assignment">
+      <created>1449614730323</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1449614730323</updated>
+    </task>
+    <task id="LOCAL-00010" summary="commited changePassword for the first time">
+      <created>1449624269620</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1449624269620</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added php file for update password for first time">
+      <created>1449624332710</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1449624332710</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added change password form html file">
+      <created>1449624376297</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1449624376297</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added files for change password for first time">
+      <created>1449624473299</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1449624473299</updated>
+    </task>
+    <task id="LOCAL-00014" summary="updated managePresentations.js file">
+      <created>1449732180190</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1449732180190</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added code for adding  Feedback questions while creating New presentation">
+      <created>1449732288502</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1449732288502</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added submit feedback php file">
+      <created>1449746458178</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1449746458178</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added get student feedback php file">
+      <created>1449746512369</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1449746512369</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Updated student view feedback details code">
+      <created>1449790964815</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1449790964815</updated>
+    </task>
+    <task id="LOCAL-00019" summary="updated backend code for update profile">
+      <created>1449796911764</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1449796911764</updated>
+    </task>
+    <task id="LOCAL-00020" summary="updated updateUser file">
+      <created>1449801473912</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1449801473912</updated>
+    </task>
+    <task id="LOCAL-00021" summary="updated updateUser file">
+      <created>1449802721589</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1449802721589</updated>
+    </task>
+    <task id="LOCAL-00022" summary="added some info alerts">
+      <created>1449834167762</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1449834167762</updated>
+    </task>
+    <task id="LOCAL-00023" summary="updated add feedback questions Rest API">
+      <created>1449839476441</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1449839476441</updated>
+    </task>
+    <task id="LOCAL-00024" summary="updated add feedback questions Rest API">
+      <created>1449843459234</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1449843459234</updated>
+    </task>
+    <task id="LOCAL-00025" summary="added group assignment code">
+      <created>1453077289839</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1453077289839</updated>
+    </task>
+    <task id="LOCAL-00026" summary="updated group assignment code">
+      <created>1453232540400</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1453232540400</updated>
+    </task>
+    <task id="LOCAL-00027" summary="added modal for group assignment">
+      <created>1453241220135</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1453241220135</updated>
+    </task>
+    <task id="LOCAL-00028" summary="updated view feedback code">
+      <created>1453241696501</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1453241696501</updated>
+    </task>
+    <task id="LOCAL-00029" summary="updated code for class assignment creation">
+      <created>1453448618365</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1453448618365</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Analytics code integrated, with different colors.&#10;Now pie chart can be differentiated by colors.&#10;&#10;Sahitya Pasnoor&#10;">
+      <created>1453609710440</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1453609710440</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Analytics code integrated, with different colors.&#10;Now pie chart can be differentiated by colors.&#10;&#10;&#10;-Sahitya Pasnoor">
+      <created>1453609746173</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1453609746173</updated>
+    </task>
+    <task id="LOCAL-00032" summary="updated sessions">
+      <created>1457069235528</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1457069235528</updated>
+    </task>
+    <task id="LOCAL-00033" summary="updated sessions">
+      <created>1457069264103</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1457069264103</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Updated code for Issue 1 &amp; Issue 2">
+      <created>1457069736558</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1457069736558</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Updated code for Issue 1 &amp; Issue 2">
+      <created>1457069970073</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1457069970073</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Updated code for adding/Editing Feedbackquestions code">
+      <created>1457072288000</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1457072288000</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Issues #8 and #9 that are identified after deployment are fixed.">
+      <created>1457307695259</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1457307695260</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Barcharts are not getting displayed in view feedback">
+      <created>1457381768065</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1457381768065</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Fixed the Issue #10 with few naming convention inconsistencies.&#10;'Log out' tab name is modified. In manage presentation tab ,there word for add and edit presentation are replaced with add and edit assignment. To make it consistent with the tab.">
+      <created>1458257633741</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1458257633741</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Fixed the Issue #11 that displayed hardcoded user details in profile screen instead of logged in user details&#10;">
+      <created>1458260252886</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1458260252886</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Minor changes">
+      <created>1461045362920</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1461045362920</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Minor changes">
+      <created>1461092432835</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1461092432835</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Minor changes">
+      <created>1461161595841</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1461161595841</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Minor changes">
+      <created>1461167913429</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1461167913429</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Fixed Issues #23 , #21, #17">
+      <created>1461291393515</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1461291393515</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Fixed Issues #23 , #21, #17">
+      <created>1461291557800</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1461291557800</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22173275" sideWeight="0.49346405" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36220473" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27401575" sideWeight="0.3338214" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21292217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.047244094" sideWeight="0.49707174" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.034313727" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2730711" sideWeight="0.50653595" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16220473" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.027642276" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27401575" sideWeight="0.66617864" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48976377" sideWeight="0.4941435" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1879085" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.027642276" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.028346457" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20644216" sideWeight="0.49346405" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13469985" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42204726" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2730711" sideWeight="0.50653595" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.034313727" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="added code for adding  Feedback questions while creating New presentation" />
+    <MESSAGE value="added submit feedback php file" />
+    <MESSAGE value="added get student feedback php file" />
+    <MESSAGE value="Updated student view feedback details code" />
+    <MESSAGE value="updated backend code for update profile" />
+    <MESSAGE value="updated updateUser file" />
+    <MESSAGE value="added some info alerts" />
+    <MESSAGE value="updated add feedback questions Rest API" />
+    <MESSAGE value="added group assignment code" />
+    <MESSAGE value="updated group assignment code" />
+    <MESSAGE value="added modal for group assignment" />
+    <MESSAGE value="updated view feedback code" />
+    <MESSAGE value="Analytics code integrated, with different colors.&#10;Now pie chart can be differentiated by colors.&#10;" />
+    <MESSAGE value="updated code for class assignment creation" />
+    <MESSAGE value="Analytics code integrated, with different colors.&#10;Now pie chart can be differentiated by colors.&#10;&#10;Sahitya Pasnoor&#10;" />
+    <MESSAGE value="Analytics code integrated, with different colors.&#10;Now pie chart can be differentiated by colors.&#10;&#10;&#10;-Sahitya Pasnoor" />
+    <MESSAGE value="updated sessions" />
+    <MESSAGE value="Updated code for Issue 1 &amp; Issue 2" />
+    <MESSAGE value="Updated code for adding/Editing Feedbackquestions code" />
+    <MESSAGE value="Issues #8 and #9 that are identified after deployment are fixed." />
+    <MESSAGE value="Barcharts are not getting displayed in view feedback" />
+    <MESSAGE value="Fixed the Issue #10 with few naming convention inconsistencies.&#10;'Log out' tab name is modified. In manage presentation tab ,there word for add and edit presentation are replaced with add and edit assignment. To make it consistent with the tab." />
+    <MESSAGE value="Fixed the Issue #11 that displayed hardcoded user details in profile screen instead of logged in user details&#10;" />
+    <MESSAGE value="Minor changes" />
+    <MESSAGE value="Fixed Issues #23 , #21, #17" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Issues #23 , #21, #17" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/viewFeedback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66392094">
+          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/feedback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.028006589">
+          <caret line="400" column="37" selection-start-line="400" selection-start-column="31" selection-end-line="400" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/ListofPresentations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.62069">
+          <caret line="62" column="14" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Backend/API/getPresentations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/adminProfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="76" column="74" selection-start-line="76" selection-start-column="74" selection-end-line="76" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Backend/Client/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Backend/API/getStudentById.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="227" column="40" selection-start-line="227" selection-start-column="40" selection-end-line="227" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e0618b68-a8f7-425d-83c2-87b76374ada6/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Backend/API/addFeedback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Backend/API/insertStudentsFromCSV.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.3461537">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/Addclass.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="227" column="0" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Backend/API/updateClassDetails.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/AboutUs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/AdminPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/AdminPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/Calendar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/changePasswordForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/changePasswordForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/Class.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6538461">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="13" column="71" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/contactUs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/facultyHomePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/Feedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="71" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/Feedback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="71" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/listOfPresentations.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/manageFaculty.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="13" column="71" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/managePresentation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/managePresentation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="13" column="71" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/moderate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/StudentHomePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/statistics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/studentHomePage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/view2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/viewFacultyFeedback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/viewFeedback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="71" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewPresentationList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding>
+            <marker date="1457298737567" expanded="true" signature="395:452" placeholder="select usern..student..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/AdminProfile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/053bf0df-eb4a-49b9-a3e3-34cfc82983c0/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding>
+            <marker date="1457298737547" expanded="true" signature="927:998" placeholder="select * fro..login..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/Viewfeedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GDP_Frontend/GDP_AJS/app/view2/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20884521">
+          <caret line="223" column="6" selection-start-line="223" selection-start-column="6" selection-end-line="223" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

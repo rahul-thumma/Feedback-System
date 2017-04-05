@@ -1,0 +1,62 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: S522626
+ * Date: 11/12/2015
+ * Time: 10:49 AM
+ */
+
+require_once '../ConnectionManager.php';
+
+$response = array();
+
+$db = ConnectionManager::getInstance();
+
+if(!empty($_POST["ID"]) || !empty($_POST["Password"]))
+{
+
+    $id = $_POST["ID"];
+    $pwd = $_POST["Password"];
+
+    $result = mysql_query("SELECT * FROM user WHERE UserID = '$id' AND Password = '$pwd'");
+
+    if(!empty($result))
+    {
+        if (mysql_num_rows($result) == 1)
+
+        {
+            $row = mysql_fetch_array($result) ;
+            $user = array();
+
+            $user["UserID"] = $row["UserID"];
+            $user["FirstName"] = $row["FirstName"];
+            $user["LastName"] = $row["LastName"];
+            $user["Contact"] = $row["Contact"];
+
+            $response["success"] = 1;
+            $response["user"] = array();
+            array_push($response["user"], $user);
+            echo json_encode($response);
+            //header("location: ../GDP_Frontend/GDP_AJS/app/index.html"); // Redirecting To Other Page
+        }
+
+        else {
+            $response["success"] = 0;
+            $response["message"] = "No user found";
+            echo json_encode($response);
+        }
+    }
+    else
+    {
+        $response["success"] = 0;
+        $response["message"] = "No user found1";
+        echo json_encode($response);
+    }
+}
+else
+{
+    $response["success"] = 0;
+    $response["message"] = "Required field is missing";
+    echo json_encode($response);
+}
+?>
